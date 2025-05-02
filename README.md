@@ -23,3 +23,6 @@ Agregar uno de sal, uno de harina y uno de agua en cualquier posición en la mes
 
 Juntar carne de res / puerco con el achiote en una mesa de crafteo o desde el inventario.
 
+# Construir el Asador del Trompo
+**Se hace la mesa**
+
