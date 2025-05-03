@@ -26,8 +26,9 @@ Juntar carne de res / puerco con el achiote en una mesa de crafteo o desde el in
 # Se Craftea el Asador del Trompo
 **Se hace la mesa**
 
-![Crafteo asador trompo](imgs/Crafteo%20asador%20trompo.png)
+
 
 # Se agrega la carne en el asador del trompo
 **Click derecho al asador del trompo con un pedazo de carne preparada con achiote**
+![Crafteo trompo](imgs/Crafteo%20trompo.png)
 
