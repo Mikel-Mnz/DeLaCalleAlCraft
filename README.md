@@ -4,15 +4,15 @@ Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos
 
 # Lista de items nuevos:
 
-**Harina**
-**Sal**
-**Achiote**
-**Tortilla**
-**Carne preparada** (carne + achiote)
-**Asador del trompo**
-**Carne de trompo picada**
-**Tacos de pastor**
-**Tacos de sal**
+- **Harina**
+- **Sal**
+- **Achiote**
+- **Tortilla**
+- **Carne preparada** (carne + achiote)
+- **Asador del trompo**
+- **Carne de trompo picada**
+- **Tacos de pastor**
+- **Tacos de sal**
 
 # Progresión del jugador
 **Recolección de Ingredientes**
