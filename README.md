@@ -2,6 +2,18 @@
 
 Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos al pastor, desde la recolección de ingredientes hasta tener tu propio trompo.
 
+# Lista de items nuevos:
+
+**Harina**
+**Sal**
+**Achiote**
+**Tortilla**
+**Carne preparada** (carne + achiote)
+**Asador del trompo**
+**Carne de trompo picada**
+**Tacos de pastor**
+**Tacos de sal**
+
 # Progresión del jugador
 **Recolección de Ingredientes**
 
@@ -28,8 +40,17 @@ Juntar carne de res / puerco con el achiote en una mesa de crafteo o desde el in
 
 ![Crafteo trompo asador](imgs/Crafteo%20asador%20trompo.png)
 
-# Se agrega la carne en el asador del trompo
+# Se Agrega la Carne en el Asador del Trompo
 **Click derecho al asador del trompo con un pedazo de carne preparada con achiote**
 
 ![Crafteo trompo](imgs/Crafteo%20trompo.png)
+
+Esperar a que se cocine (cambie de color)
+Con una espada / cuchillo click derecho para que te de la carne picada de trompo.
+
+# Hacer los Tacos
+Juntar la carne picada de trompo con las tortillas en un menú de crafteo.
+Juntar las tortillas con sal para hacer un taco de sal
+
+
 
