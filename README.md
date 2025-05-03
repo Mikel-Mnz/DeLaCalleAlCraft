@@ -25,4 +25,5 @@ Juntar carne de res / puerco con el achiote en una mesa de crafteo o desde el in
 
 # Construir el Asador del Trompo
 **Se hace la mesa**
-![Crafteo asador trompo](imgs/Opera Snapshot_2025-05-02_174809_docs.google.com.png)
+![Crafteo asador trompo](imgs/Opera%20Snapshot_2025-05-02_174809_docs.google.com.png)
+
