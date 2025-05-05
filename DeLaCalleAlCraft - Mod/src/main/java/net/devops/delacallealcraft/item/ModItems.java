@@ -17,7 +17,10 @@ public class ModItems {
     public static final RegistryObject<Item> TORTILLA = ITEMS.register("tortilla",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> TACO_DE_SAL = ITEMS.register("tortilla",
+    public static final RegistryObject<Item> TACO_DE_SAL = ITEMS.register("taco_de_sal",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SAL = ITEMS.register("sal",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
