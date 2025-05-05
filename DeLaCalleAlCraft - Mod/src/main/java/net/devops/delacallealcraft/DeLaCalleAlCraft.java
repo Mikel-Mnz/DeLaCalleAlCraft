@@ -54,6 +54,7 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.ACHIOTE);
             event.accept(ModItems.CARNE_CONDIMENTADA);
             event.accept(ModItems.ASADOR_TROMPO);
+            event.accept(ModItems.TROMPO_CRUDO);
         }
     }
 
