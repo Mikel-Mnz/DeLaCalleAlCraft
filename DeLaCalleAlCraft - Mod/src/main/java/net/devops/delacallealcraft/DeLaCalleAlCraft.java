@@ -50,6 +50,7 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.TORTILLA);
             event.accept(ModItems.TACO_DE_SAL);
             event.accept(ModItems.SAL);
+            event.accept(ModItems.TACOS_AL_PASTOR);
         }
     }
 
