@@ -48,6 +48,7 @@ public class DeLaCalleAlCraft {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.HARINA);
             event.accept(ModItems.TORTILLA);
+            event.accept(ModItems.TACO_DE_SAL);
         }
     }
 
