@@ -29,7 +29,10 @@ public class ModItems {
     public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> CARNE_CONDIMENTADA = ITEMS.register("achiote",
+    public static final RegistryObject<Item> CARNE_CONDIMENTADA = ITEMS.register("carne_condimentada",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ASADOR_TROMPO = ITEMS.register("asador_trompo",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
