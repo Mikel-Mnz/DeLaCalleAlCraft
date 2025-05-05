@@ -47,6 +47,7 @@ public class DeLaCalleAlCraft {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.HARINA);
+            event.accept(ModItems.TORTILLA);
         }
     }
 
