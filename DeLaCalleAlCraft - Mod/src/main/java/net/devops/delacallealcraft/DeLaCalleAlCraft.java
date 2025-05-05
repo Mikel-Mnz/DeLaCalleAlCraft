@@ -52,6 +52,7 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.SAL);
             event.accept(ModItems.TACOS_AL_PASTOR);
             event.accept(ModItems.ACHIOTE);
+            event.accept(ModItems.CARNE_CONDIMENTADA);
         }
     }
 
