@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft;
 
 import com.mojang.logging.LogUtils;
+import net.devops.delacallealcraft.item.ModCreativeModeTabs;
 import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +31,8 @@ public class DeLaCalleAlCraft {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
