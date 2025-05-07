@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "delacallealcraft:harina"
+    },
+    "B": {
+      "item": "delacallealcraft:sal"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "ABC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delacallealcraft:tortilla"
+  }
+}
