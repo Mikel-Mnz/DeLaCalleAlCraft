@@ -19,7 +19,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, DeLaCalleAlCraft.MOD_ID);
 
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new SpecialBlock(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.POINTED_DRIPSTONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
