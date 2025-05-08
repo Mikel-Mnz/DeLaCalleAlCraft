@@ -1,13 +1,13 @@
 {
   "textures": {
-    "0": "block/salt1",
-    "1": "block/salt2",
-    "2": "block/salt3",
-    "3": "block/salt4",
-    "4": "block/salt5",
-    "5": "block/salt6",
-    "6": "block/salt7",
-    "particle": "block/salt1"
+    "0": "delacallealcraft:block/salt1",
+    "1": "delacallealcraft:block/salt2",
+    "2": "delacallealcraft:block/salt3",
+    "3": "delacallealcraft:block/salt4",
+    "4": "delacallealcraft:block/salt5",
+    "5": "delacallealcraft:block/salt6",
+    "6": "delacallealcraft:block/salt7",
+    "particle": "delacallealcraft:block/salt1"
   },
   "elements": [
     {
