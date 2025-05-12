@@ -18,7 +18,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> TACO_DE_SAL = ITEMS.register("taco_de_sal",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TACO_DE_SAL)));
 
     public static final RegistryObject<Item> SAL = ITEMS.register("sal",
             () -> new Item(new Item.Properties()));
