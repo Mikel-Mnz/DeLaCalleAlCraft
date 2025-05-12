@@ -1,0 +1,12 @@
+package net.devops.delacallealcraft.item;
+
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
+
+public class ModFoodProperties {
+    public static final FoodProperties TACO_DE_SAL = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.25f)
+            .build();
+}
