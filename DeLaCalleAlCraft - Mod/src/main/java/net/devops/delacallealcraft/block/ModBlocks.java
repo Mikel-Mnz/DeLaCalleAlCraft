@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft.block;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.block.custom.SaltBlock;
 import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,7 +21,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",
             () -> new SaltBlock(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.POINTED_DRIPSTONE)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.POINTED_DRIPSTONE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

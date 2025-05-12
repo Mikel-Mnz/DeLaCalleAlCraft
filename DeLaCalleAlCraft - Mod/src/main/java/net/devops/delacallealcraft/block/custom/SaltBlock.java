@@ -1,4 +1,4 @@
-package net.devops.delacallealcraft.block;
+package net.devops.delacallealcraft.block.custom;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
