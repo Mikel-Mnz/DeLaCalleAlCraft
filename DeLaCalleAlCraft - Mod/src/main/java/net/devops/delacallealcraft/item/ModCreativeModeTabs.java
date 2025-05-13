@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAL.get());
                         output.accept(ModItems.TACO_DE_SAL.get());
                         output.accept(ModItems.TACO_AL_PASTOR.get());
+                        output.accept(ModItems.ACHIOTE.get());
                     })
                     .build()
 
