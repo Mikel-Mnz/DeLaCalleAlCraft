@@ -17,7 +17,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> DE_LA_CALLE_AL_CRAFT_ITEMS = CREATIVE_MOD_TABS.register("de_la_calle_al_craft_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.HARINA.get()))
+                    .icon(() -> new ItemStack(ModItems.TROMPO_CRUDO.get()))
                     .title(Component.translatable("creativetab.delacallealcraft.harina_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.HARINA.get());
@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ACHIOTE.get());
                         output.accept(ModItems.CARNE_CONDIMENTADA.get());
                         output.accept(ModItems.CARNE_CONDIMENTADA_CRUDA.get());
+                        output.accept(ModItems.TROMPO_CRUDO.get());
                     })
                     .build()
 

@@ -59,6 +59,7 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.ACHIOTE);
             event.accept(ModItems.CARNE_CONDIMENTADA);
             event.accept(ModItems.CARNE_CONDIMENTADA_CRUDA);
+            event.accept(ModItems.TROMPO_CRUDO);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

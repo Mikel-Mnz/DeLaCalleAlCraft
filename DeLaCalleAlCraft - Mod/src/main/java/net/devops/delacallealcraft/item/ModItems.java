@@ -35,6 +35,9 @@ public class ModItems {
     public static final RegistryObject<Item> CARNE_CONDIMENTADA_CRUDA = ITEMS.register("carne_condimentada_cruda",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TROMPO_CRUDO = ITEMS.register("trompo_crudo",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

@@ -7,8 +7,8 @@
   "item.delacallealcraft.sal": "Sal",
   "item.delacallealcraft.taco_al_pastor": "Taco al Pastor",
   "item.delacallealcraft.achiote": "Achiote",
-  "item.delacallealcraft.carne_condimentada": "Carne Condimentada",
+  "item.delacallealcraft.carne_condimentada": "Carne Condimentada Cocida",
   "item.delacallealcraft.carne_condimentada_cruda": "Carne Condimentada Cruda",
-
-  "block.delacallealcraft.salt_block": "Halita"
+  "block.delacallealcraft.salt_block": "Halita",
+  "item.delacallealcraft.trompo_crudo": "Trompo Crudo"
 }
