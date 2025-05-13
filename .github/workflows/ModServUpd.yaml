@@ -1,0 +1,88 @@
+name: Update Mods of Server
+
+on:
+  push:
+    branches:
+    - main
+    - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-2
+
+    - name: Subimos los archivos a la bucket
+      run: aws s3 sync ./ s3://minecraft-server-devops-pro-fin --delete
+    
+    - name: Apagar EC2
+      run: |
+          aws ec2 stop-instances --instance-ids ${{ secrets.EC2_INSTANCE_ID }}
+          echo "Instancia EC2 apagada."
+
+    - name: Esperar a que la instancia esté en 'stopped'
+      run: |
+          aws ec2 wait instance-stopped --instance-ids ${{ secrets.EC2_INSTANCE_ID }}
+          echo "La instancia EC2 está apagada."
+
+    - name: Prender EC2
+      run: |
+          aws ec2 start-instances --instance-ids ${{ secrets.EC2_INSTANCE_ID }}
+          echo "Instancia EC2 prendida."
+
+    - name: Esperar a que la instancia esté en 'running'
+      run: |
+          aws ec2 wait instance-running --instance-ids ${{ secrets.EC2_INSTANCE_ID }}
+          echo "La instancia EC2 está corriendo."
+
+    - name: Configuracion EC2 Actualizacion de mods
+      env:
+          PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          USER_NAME: ${{ secrets.EC2_USER_NAME }}
+      run: |
+          echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
+
+          IP_ADDRESS=$(aws ec2 describe-instances \
+            --query 'Reservations[0].Instances[0].PublicIpAddress' \
+            --output text)
+    
+          echo "La IP pública de la instancia EC2 es: $IP_ADDRESS"
+
+          ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${IP_ADDRESS} << 'EOF'
+
+          
+
+
+          sudo yum update -y
+
+          rm -rf /modSetup/'DeLaCalleAlCraft - Mod'
+          rm -rf /minecraft/mods
+
+          aws s3 cp --recursive s3://minecraft-server-devops-pro-fin/'DeLaCalleAlCraft - Mod' /modSetup/'DeLaCalleAlCraft - Mod'
+          cd /modSetup/
+          cd 'DeLaCalleAlCraft - Mod'/
+
+          chmod 777 gradlew
+          ./gradlew build
+
+          cd build/
+          cd libs/
+          
+          mkdir /minecraft/mods
+          mv *.jar /minecraft/mods
+
+          cd /minecraft/
+          sudo nohup ./run.sh > minecraft.log 2>&1 &
+
+
+          EOF
+          rm private_key
+          

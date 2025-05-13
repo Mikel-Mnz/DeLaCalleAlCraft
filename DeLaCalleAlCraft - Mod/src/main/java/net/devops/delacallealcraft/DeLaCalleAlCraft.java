@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft;
 
 import com.mojang.logging.LogUtils;
+import net.devops.delacallealcraft.block.ModBlocks;
 import net.devops.delacallealcraft.item.ModCreativeModeTabs;
 import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,6 +36,7 @@ public class DeLaCalleAlCraft {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -57,6 +59,10 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.ACHIOTE);
             event.accept(ModItems.CARNE_CONDIMENTADA);
             event.accept(ModItems.CARNE_CONDIMENTADA_CRUDA);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SALT_BLOCK);
         }
     }
 
