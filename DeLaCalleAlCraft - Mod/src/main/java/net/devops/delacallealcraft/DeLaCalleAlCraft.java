@@ -55,6 +55,10 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.TORTILLA);
             event.accept(ModItems.TACO_DE_SAL);
             event.accept(ModItems.SAL);
+            event.accept(ModItems.TACO_AL_PASTOR);
+            event.accept(ModItems.ACHIOTE);
+            event.accept(ModItems.CARNE_CONDIMENTADA);
+            event.accept(ModItems.CARNE_CONDIMENTADA_CRUDA);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

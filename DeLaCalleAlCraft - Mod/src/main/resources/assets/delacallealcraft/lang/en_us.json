@@ -1,8 +1,14 @@
 {
+  "creativetab.delacallealcraft.harina_items": "De La Calle Al Craft",
+  
   "item.delacallealcraft.harina": "Harina",
   "item.delacallealcraft.tortilla": "Tortilla",
   "item.delacallealcraft.taco_de_sal": "Taco de Sal",
   "item.delacallealcraft.sal": "Sal",
-  "creativetab.delacallealcraft.harina_items": "De La Calle Al Craft",
+  "item.delacallealcraft.taco_al_pastor": "Taco al Pastor",
+  "item.delacallealcraft.achiote": "Achiote",
+  "item.delacallealcraft.carne_condimentada": "Carne Condimentada",
+  "item.delacallealcraft.carne_condimentada_cruda": "Carne Condimentada Cruda",
+
   "block.delacallealcraft.salt_block": "Halita"
 }

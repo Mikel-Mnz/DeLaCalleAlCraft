@@ -23,6 +23,18 @@ public class ModItems {
     public static final RegistryObject<Item> SAL = ITEMS.register("sal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TACO_AL_PASTOR = ITEMS.register("taco_al_pastor",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TACO_AL_PASTOR)));
+
+    public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CARNE_CONDIMENTADA = ITEMS.register("carne_condimentada",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CARNE_CONDIMENTADA_CRUDA = ITEMS.register("carne_condimentada_cruda",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
