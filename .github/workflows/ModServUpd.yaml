@@ -77,7 +77,7 @@ jobs:
           cd libs/
           
           mkdir /minecraft/mods
-          mv delacallealcraft-1.0.0.jar /minecraft/mods
+          mv *.jar /minecraft/mods
 
           cd /minecraft/
           sudo nohup ./run.sh > minecraft.log 2>&1 &
