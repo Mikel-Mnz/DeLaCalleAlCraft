@@ -70,6 +70,9 @@ jobs:
           cd /modSetup/
           git clone https://github.com/Mikel-Mnz/DeLaCalleAlCraft.git
           cd DeLaCalleAlCraft/
+          git checkout develop
+          git pull
+          
           cd 'DeLaCalleAlCraft - Mod'/
 
           chmod 777 gradlew
