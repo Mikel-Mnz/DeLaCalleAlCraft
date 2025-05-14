@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft.datagen;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.block.ModBlocks;
 import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.ItemModelProvider;

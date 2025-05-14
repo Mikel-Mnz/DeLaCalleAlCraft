@@ -16,9 +16,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        blockWithItem1(ModBlocks.SALT_BLOCK);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+
+    private void blockWithItem1(RegistryObject<Block> blockRegistryObject) {
+        String name = blockRegistryObject.getId().getPath();
+
+        // Modelo del bloque
+        simpleBlock(blockRegistryObject.get(),
+                models().withExistingParent(name, modLoc("block/" + name))
+        );
+
+        // Modelo del item
+        itemModels().getBuilder(name)
+                .parent(models().getExistingFile(modLoc("block/" + name)));
     }
 }
