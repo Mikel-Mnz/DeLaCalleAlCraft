@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "delacallealcraft:item/carneconchilecruda"
+    "layer0": "delacallealcraft:item/carne_condimentada"
   }
 }
