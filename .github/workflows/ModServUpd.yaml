@@ -63,7 +63,7 @@ jobs:
           sudo yum update -y
           sudo yum install -y git
 
-          rm -rf /modSetup/'DeLaCalleAlCraft - Mod'
+          rm -rf /modSetup/DeLaCalleAlCraft
           rm -rf /minecraft/mods
 
           
