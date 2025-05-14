@@ -20,8 +20,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-2
 
-    - name: Subimos los archivos a la bucket
-      run: aws s3 sync ./ s3://minecraft-server-devops-pro-fin --delete
+    
     
     - name: Apagar EC2
       run: |
@@ -62,19 +61,22 @@ jobs:
 
 
           sudo yum update -y
+          sudo yum install -y git
 
           rm -rf /modSetup/'DeLaCalleAlCraft - Mod'
           rm -rf /minecraft/mods
 
-          aws s3 cp --recursive s3://minecraft-server-devops-pro-fin/'DeLaCalleAlCraft - Mod' /modSetup/'DeLaCalleAlCraft - Mod'
+          
           cd /modSetup/
+          git clone https://github.com/Mikel-Mnz/DeLaCalleAlCraft.git
+          cd DeLaCalleAlCraft/
           cd 'DeLaCalleAlCraft - Mod'/
 
           chmod 777 gradlew
           ./gradlew build
 
-          cd build/
-          cd libs/
+          cd build/libs/
+       
           
           mkdir /minecraft/mods
           mv *.jar /minecraft/mods
