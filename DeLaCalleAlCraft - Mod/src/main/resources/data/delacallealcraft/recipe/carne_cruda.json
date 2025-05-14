@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "delacallealcraft:sal"
+    },
+    "C": {
+      "item": "delacallealcraft:achiote"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "ABC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delacallealcraft:carne_condimentada_cruda"
+  }
+}
