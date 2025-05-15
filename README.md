@@ -32,7 +32,7 @@ La progresión del mod iniciando desde cero en un mundo en supervivencia sería 
 - **Sal:**  
   Se puede conseguir sal al picar la estalactita nuevamente creada con un pico de cualquier calidad
   
-![Sal](imgs/craftacodesal.png)
+![Sal](imgs/salt.png)
 
 - **Trigo:**  
   Se cultiva y recolecta de la manera tradicional en el juego.
