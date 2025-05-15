@@ -1,6 +1,6 @@
 # De la calle al craft
 
-Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos al pastor, desde la recolección de ingredientes hasta tener tu propio trompo.
+Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos al pastor y los clasicos tacos de sal, desde la recolección de ingredientes hasta el poder cocinar y preparar tú mismo..
 
 # Lista de items nuevos:
 
@@ -10,47 +10,91 @@ Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos
 - **Tortilla**
 - **Carne preparada** (carne + achiote)
 - **Asador del trompo**
-- **Carne de trompo picada**
+- **Carne de pastor cruda**
+- **Carne de pastor picada**
 - **Tacos de pastor**
 - **Tacos de sal**
 
-# Progresión del jugador
-**Recolección de Ingredientes**
+# Progresión del Jugador - Mod de Tacos al Pastor
+##  Recolección de Insumos
 
-**Trigo:** Se obtiene de la generación normal del juego.
+La progresión del mod iniciando desde cero en un mundo en supervivencia sería de la siguiente manera:
 
-**Sal:** Se encuentra en estalactitas de sal en el desierto. También puede obtenerse como drop de brujas o en cabañas de brujas.
+- **Chile achiote:**  
+  Se obtiene a partir de un arbusto especial que aparece en el mundo. *(WARD)*
 
-**Carne de res o puerco:** Se obtiene de vacas y cerdos del juego vanilla.
+- **Carne (cerdo o res):**  
+  Se obtiene al matar vacas o cerdos, igual que en el juego tradicional.
 
-**Achiote:** Aparece de forma natural en los biomas de sabana y badlands. También puede caer como drop de zombis del desierto.
+- **Sal:**  
+  Se consigue picando estalactitas de sal con un pico de cualquier calidad. Estas aparecen de forma natural en el bioma de desierto.  
+  También puede obtenerse como drop de ciertas criaturas. *(WARD)*
 
-# Preparar las Tortillas
+- **Trigo:**  
+  Se cultiva y recolecta de la manera tradicional en el juego.
 
-Craftear la harina con uno de trigo en la mesa de crafteo
+---
 
-Agregar uno de sal, uno de harina y uno de agua en cualquier posición en la mesa de crafteo
+##  Preparación de las Tortillas
 
-# Preparar la Carne
+1. **Harina**  
+   Se craftea en la mesa de trabajo con **1 de trigo** en cualquier posición.
 
-Juntar carne de res / puerco con el achiote en una mesa de crafteo o desde el inventario.
+2. **Tortilla**  
+   Se craftea con los siguientes ingredientes en la mesa de crafteo:
+   - 1 harina  
+   - 1 sal  
+   - 1 trigo (colocado de forma horizontal)
 
-# Se Craftea el Asador del Trompo
-**Se hace la mesa**
+---
 
-![Crafteo trompo asador](imgs/Crafteo%20asador%20trompo.png)
+##  Preparación de la Carne
 
-# Se Agrega la Carne en el Asador del Trompo
-**Click derecho al asador del trompo con un pedazo de carne preparada con achiote**
+- **Pastor crudo**  
+  Se craftea en una mesa de trabajo con:
+  - 1 chuleta (cerdo o res)  
+  - 1 achiote  
+  - 1 sal  
+  Esto genera un nuevo ítem: **Carne de pastor cruda**.
 
-![Crafteo trompo](imgs/Crafteo%20trompo.png)
+---
 
-Esperar a que se cocine (cambie de color)
-Con una espada / cuchillo click derecho para que te de la carne picada de trompo.
+##  Construcción del Asador y Trompo
 
-# Hacer los Tacos
-Juntar la carne picada de trompo con las tortillas en un menú de crafteo.
-Juntar las tortillas con sal para hacer un taco de sal
+- **Asador**  
+  Se craftea con ítems disponibles en el juego tradicional. *(WARD)*
+
+- **Trompo de pastor**  
+  Se craftea con:
+  - 1 cadena (ítem vanilla)
+  - 6 carnes de pastor crudas  
+  La receta se dispone de forma especial. *(WARD)*
+
+---
+
+## Cocinar la Carne
+
+Para cocinar la carne se utiliza el **ahumador**:
+
+1. Coloca combustible en el ahumador.
+2. Añade la carne de pastor cruda.
+3. Obtendrás **carne de pastor cocinada**.
+
+---
+
+##  Craftear los Tacos
+
+- **Taco al pastor**  
+  Se craftea en una mesa de trabajo con:
+  - 1 tortilla  
+  - 1 carne de pastor cocinada *(WARD)*
+
+- **Taco de sal**  
+  Se craftea en una mesa de trabajo con:
+  - 1 tortilla  
+  - 1 sal
+
+
 
 
 
