@@ -1,4 +1,4 @@
-# De la calle al craft
+# De La Calle Al Craft
 
 Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos al pastor y los clasicos tacos de sal, desde la recolección de ingredientes hasta el poder cocinar y preparar tú mismo..
 
