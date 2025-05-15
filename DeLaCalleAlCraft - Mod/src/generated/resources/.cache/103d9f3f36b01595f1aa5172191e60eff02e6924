@@ -1,0 +1,7 @@
+// 1.21.1	2025-05-15T14:23:35.1536377	Registries
+1f98dc7c9ec960197ab103fc5d461e38e517f754 data/delacallealcraft/forge/biome_modifier/add_achiote_bush.json
+a66c2e305f1521e593aa191a66a66391890c2f69 data/delacallealcraft/forge/biome_modifier/add_salt_block.json
+95927c4afda47f203a5a4abdab1c0a959645c88d data/delacallealcraft/worldgen/configured_feature/achiote_bush.json
+4f024ad39584a595706afd7f6c0c3e01bb373726 data/delacallealcraft/worldgen/configured_feature/salt_block.json
+70f430b364b9e4ee3c6b4caec0cd868819d342b1 data/delacallealcraft/worldgen/placed_feature/achiote_bush_placed.json
+1adaa40cd97b22e53ab68d4a7f143d8ada6fabdd data/delacallealcraft/worldgen/placed_feature/salt_block_placed.json

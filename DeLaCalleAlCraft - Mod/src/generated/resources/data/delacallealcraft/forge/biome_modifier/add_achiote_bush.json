@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": "delacallealcraft:achiote_bush_placed",
+  "step": "vegetal_decoration"
+}
