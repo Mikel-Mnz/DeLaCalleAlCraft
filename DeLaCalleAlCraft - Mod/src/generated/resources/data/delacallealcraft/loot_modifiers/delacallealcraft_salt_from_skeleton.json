@@ -1,0 +1,10 @@
+{
+  "type": "delacallealcraft:add_item",
+  "conditions": [
+    {
+      "chance": 0.25,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "delacallealcraft:sal"
+}

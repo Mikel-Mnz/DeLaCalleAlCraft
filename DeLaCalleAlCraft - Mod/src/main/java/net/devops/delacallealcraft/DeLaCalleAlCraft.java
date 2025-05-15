@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.devops.delacallealcraft.block.ModBlocks;
 import net.devops.delacallealcraft.item.ModCreativeModeTabs;
 import net.devops.delacallealcraft.item.ModItems;
+import net.devops.delacallealcraft.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,6 +39,8 @@ public class DeLaCalleAlCraft {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModLootModifiers.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
@@ -59,7 +62,7 @@ public class DeLaCalleAlCraft {
             event.accept(ModItems.ACHIOTE);
             event.accept(ModItems.CARNE_CONDIMENTADA);
             event.accept(ModItems.CARNE_CONDIMENTADA_CRUDA);
-            event.accept(ModItems.TROMPO_CRUDO);
+            //event.accept(ModItems.TROMPO_CRUDO);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
