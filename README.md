@@ -99,14 +99,14 @@ Para cocinar la carne se utiliza el **ahumador**:
   Se craftea en una mesa de trabajo con:
   - 1 tortilla  
   - 1 carne de pastor cocinada
-  - 
+    
 ![Taco de pastor](imgs/tacodepastor.png)
 
 - **Taco de sal**  
   Se craftea en una mesa de trabajo con:
   - 1 tortilla  
   - 1 sal
-  - 
+    
 ![Taco de sal](imgs/crafttacodesal.png)
 
 
