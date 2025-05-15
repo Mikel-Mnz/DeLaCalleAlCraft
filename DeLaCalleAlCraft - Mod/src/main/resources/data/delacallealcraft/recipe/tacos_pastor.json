@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "delacallealcraft:tortilla"
+    },
+    "B": {
+      "item": "delacallealcraft:carne_condimentada"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "AB "
+  ],
+  "result": {
+    "count": 1,
+    "id": "delacallealcraft:taco_al_pastor"
+  }
+}

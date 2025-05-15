@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "delacallealcraft:carne_condimentada_cruda"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "delacallealcraft:trompo_crudo"
+  }
+} 
