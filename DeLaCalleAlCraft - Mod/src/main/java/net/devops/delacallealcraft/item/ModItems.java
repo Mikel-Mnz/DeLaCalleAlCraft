@@ -1,7 +1,9 @@
 package net.devops.delacallealcraft.item;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.block.ModBlocks;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,7 +29,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.TACO_AL_PASTOR)));
 
     public static final RegistryObject<Item> ACHIOTE = ITEMS.register("achiote",
-            () -> new Item(new Item.Properties()));
+            () -> new ItemNameBlockItem(ModBlocks.ACHIOTE_BUSH.get(), new Item.Properties().food(ModFoodProperties.ACHIOTE)));
 
     public static final RegistryObject<Item> CARNE_CONDIMENTADA = ITEMS.register("carne_condimentada",
             () -> new Item(new Item.Properties()));

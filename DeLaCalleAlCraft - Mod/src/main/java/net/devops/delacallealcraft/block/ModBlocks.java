@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft.block;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.block.custom.AchioteBushBlock;
 import net.devops.delacallealcraft.block.custom.SaltBlock;
 import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +24,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",
             () -> new SaltBlock(BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.POINTED_DRIPSTONE)));
+
+    public static final RegistryObject<Block> ACHIOTE_BUSH = BLOCKS.register("achiote_bush",
+            () -> new AchioteBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
