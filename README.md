@@ -21,14 +21,13 @@ Este mod agrega al mundo de Minecraft la experiencia culinaria de preparar tacos
 La progresión del mod iniciando desde cero en un mundo en supervivencia sería de la siguiente manera:
 
 - **Chile achiote:**  
-  Se obtiene a partir de un arbusto especial que aparece en el mundo. *(WARD)*
+  Se consigue chile achiote a partir de un arbusto de este dandole clic derecho una vez ya esté crecido el arbusto, estos spawnean de manera natural en la savana
 
 - **Carne (cerdo o res):**  
   Se obtiene al matar vacas o cerdos, igual que en el juego tradicional.
 
 - **Sal:**  
-  Se consigue picando estalactitas de sal con un pico de cualquier calidad. Estas aparecen de forma natural en el bioma de desierto.  
-  También puede obtenerse como drop de ciertas criaturas. *(WARD)*
+  Se puede conseguir sal al picar la estalactita nuevamente creada con un pico de cualquier calidad
 
 - **Trigo:**  
   Se cultiva y recolecta de la manera tradicional en el juego.
@@ -62,15 +61,11 @@ La progresión del mod iniciando desde cero en un mundo en supervivencia sería 
 ##  Construcción del Asador y Trompo
 
 - **Asador**  
-  Se craftea con ítems disponibles en el juego tradicional. *(WARD)*
+  En este caso se utilizara el ahumador del juego tradicional 
 
-- **Trompo de pastor**  
-  Se craftea con:
-  - 1 cadena (ítem vanilla)
-  - 6 carnes de pastor crudas  
-  La receta se dispone de forma especial. *(WARD)*
 
----
+
+--
 
 ## Cocinar la Carne
 
@@ -87,7 +82,7 @@ Para cocinar la carne se utiliza el **ahumador**:
 - **Taco al pastor**  
   Se craftea en una mesa de trabajo con:
   - 1 tortilla  
-  - 1 carne de pastor cocinada *(WARD)*
+  - 1 carne de pastor cocinada 
 
 - **Taco de sal**  
   Se craftea en una mesa de trabajo con:
