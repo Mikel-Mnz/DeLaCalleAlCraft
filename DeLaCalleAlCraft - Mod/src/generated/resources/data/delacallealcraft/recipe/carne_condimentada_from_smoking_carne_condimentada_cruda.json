@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "carnes",
+  "ingredient": {
+    "item": "delacallealcraft:carne_condimentada_cruda"
+  },
+  "result": {
+    "id": "delacallealcraft:carne_condimentada"
+  }
+}

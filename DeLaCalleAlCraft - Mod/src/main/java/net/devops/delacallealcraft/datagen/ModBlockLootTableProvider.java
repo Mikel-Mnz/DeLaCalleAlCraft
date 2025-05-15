@@ -35,10 +35,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        //dropSelf(ModBlocks.SALT_BLOCK.get());
+        dropSelf(ModBlocks.SALT_BLOCK.get());
 
-        /*this.add(ModBlocks.SALT_BLOCK.get(),
-                block -> createOreDrop(ModBlocks.SALT_BLOCK.get(), ModItems.SAL.get()));*/
+        this.add(ModBlocks.SALT_BLOCK.get(),
+                block -> createOreDrop(ModBlocks.SALT_BLOCK.get(), ModItems.SAL.get()));
 
         this.add(ModBlocks.SALT_BLOCK.get(),
                 block -> createMultipleOreDrops(ModBlocks.SALT_BLOCK.get(), ModItems.SAL.get(), 2, 6));

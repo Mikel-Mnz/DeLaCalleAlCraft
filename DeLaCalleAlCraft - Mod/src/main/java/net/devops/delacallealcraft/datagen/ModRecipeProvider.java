@@ -1,6 +1,7 @@
 package net.devops.delacallealcraft.datagen;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -18,7 +19,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput pRecipeOutput) {
-
+        oreCooking(
+                pRecipeOutput,
+                RecipeSerializer.SMOKING_RECIPE,
+                SmokingRecipe::new,
+                List.of(ModItems.CARNE_CONDIMENTADA_CRUDA.get()),
+                RecipeCategory.FOOD,
+                ModItems.CARNE_CONDIMENTADA.get(),
+                0.35f,
+                200,
+                "carnes",
+                "_from_smoking"
+        );
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
