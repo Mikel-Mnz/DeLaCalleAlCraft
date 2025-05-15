@@ -1,17 +1,42 @@
 package net.devops.delacallealcraft.worldgen;
 
 import net.devops.delacallealcraft.DeLaCalleAlCraft;
+import net.devops.delacallealcraft.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
+import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
+import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+
+import java.util.List;
 
 public class ModConfiguredFeatures {
 
+    public static final ResourceKey<ConfiguredFeature<?, ?>> ACHIOTE_BUSH_KEY = registerKey("achiote_bush");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SALT_BLOCK_KEY = registerKey("salt_block");
+
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
+
+        register(context, ACHIOTE_BUSH_KEY, Feature.RANDOM_PATCH,
+                FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(
+                                BlockStateProvider.simple(ModBlocks.ACHIOTE_BUSH.get()
+                                        .defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))
+                        ), List.of(Blocks.GRASS_BLOCK)));
+
+        register(context, SALT_BLOCK_KEY, Feature.RANDOM_PATCH,
+                FeatureUtils.simplePatchConfiguration(
+                        Feature.SIMPLE_BLOCK,
+                        new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.SALT_BLOCK.get().defaultBlockState())),
+                        List.of(Blocks.SAND, Blocks.RED_SAND)
+                )
+        );
 
 
     }
