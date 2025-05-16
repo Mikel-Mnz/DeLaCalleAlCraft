@@ -23,4 +23,11 @@ public class ModFoodProperties {
             .fast()
             .build();
 
+    public static final FoodProperties TORTA_PASTOR = new FoodProperties.Builder()
+            .nutrition(10)
+            .saturationModifier(0.15f)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 140), 0.20f)
+            .fast()
+            .build();
+
     }

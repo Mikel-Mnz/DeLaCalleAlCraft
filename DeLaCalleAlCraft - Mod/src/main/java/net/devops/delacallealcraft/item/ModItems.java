@@ -40,6 +40,9 @@ public class ModItems {
     public static final RegistryObject<Item> TROMPO_CRUDO = ITEMS.register("trompo_crudo",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> TORTA_TROMPO = ITEMS.register("tortapastor",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TORTA_PASTOR)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

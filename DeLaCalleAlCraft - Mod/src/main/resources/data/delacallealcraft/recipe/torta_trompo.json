@@ -3,19 +3,19 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "delacallealcraft:carne_condimentada_cruda"
+      "item": "minecraft:Bread"
     },
     "B": {
-      "item": "minecraft:chain"
+      "item": "delacallealcraft:carne_condimentada"
     }
-  },
+  },x
   "pattern": [
-    "AAA",
-    "ABA",
+    " A ",
+    " B ",
     " A "
   ],
   "result": {
     "count": 1,
-    "id": "delacallealcraft:trompo_crudo"
+    "id": "delacallealcraft:torta_trompo"
   }
 }

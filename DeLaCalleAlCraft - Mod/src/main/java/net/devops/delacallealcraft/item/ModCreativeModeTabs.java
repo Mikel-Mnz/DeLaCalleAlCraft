@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CARNE_CONDIMENTADA.get());
                         output.accept(ModItems.CARNE_CONDIMENTADA_CRUDA.get());
                         output.accept(ModItems.TROMPO_CRUDO.get());
+                        output.accept(ModItems.TORTA_TROMPO.get());
                     })
                     .build()
 

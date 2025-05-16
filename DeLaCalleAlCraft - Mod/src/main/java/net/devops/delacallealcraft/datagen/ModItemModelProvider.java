@@ -23,5 +23,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CARNE_CONDIMENTADA.get());
         basicItem(ModItems.CARNE_CONDIMENTADA_CRUDA.get());
         basicItem(ModItems.TROMPO_CRUDO.get());
+        basicItem(ModItems.TORTA_TROMPO.get());
     }
 }
